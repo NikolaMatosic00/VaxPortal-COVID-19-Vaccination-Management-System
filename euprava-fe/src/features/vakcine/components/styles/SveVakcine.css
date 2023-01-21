@@ -1,0 +1,101 @@
+.sve_vakcine_kontejner {
+  margin: 21px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  border: none;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  padding-top: 5px;
+}
+.sve_vakcine_kontejner_header {
+  box-shadow: 0 3px 5px rgba(174, 156, 238, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 40px;
+  border-radius: 12px;
+}
+
+.sve_vakcine_kontejner_header input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  transition: 0.4s ease;
+}
+.sve_vakcine_kontejner_header input:focus {
+  outline: none;
+  border-bottom: 1px solid #cba135;
+  border-left: 1px solid #cba135;
+  border-right: 1px solid #cba135;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#drzave_pretraga_vakcina,
+#sortiranje_pretraga_vakcine {
+  padding: 10px;
+  border: none;
+}
+#drzave_pretraga_vakcina:focus,
+#sortiranje_pretraga_vakcine:focus {
+  outline: none;
+}
+
+.sve_vakcine_kontejner_header button {
+  border: none;
+  padding: 15px;
+  background-color: #f3efe0;
+  border-radius: 12px;
+  box-shadow: 3px 2px 3px rgba(196, 196, 196, 0.404);
+}
+
+.sve_vakcine_kontejner_header button:hover {
+  color: white;
+  background-color: #cfac5379;
+  cursor: pointer;
+}
+
+.sve_vakcine_kontejner_body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  row-gap: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  padding: 15px;
+}
+.sve_vakcine_kontejner_body .kartica {
+  display: flex;
+  flex-direction: column;
+}
+
+.sve_vakcine_kontejner_body .kartica h4 {
+  background-color: rgba(115, 161, 115, 0.603);
+  margin: 0px;
+  text-align: center;
+  padding: 10px 4px;
+  cursor: pointer;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.sve_vakcine_kontejner_body .kartica h4:hover {
+  background-color: rgba(115, 161, 115, 0.274);
+  font-weight: 600;
+}
+
+.sve_vakcine_kontejner_body .kartica #cifra {
+  background-color: rgba(115, 161, 115, 0.274);
+  padding: 50px 1px;
+  font-size: xx-large;
+}
+
+.sve_vakcine_kontejner_body .kartica span {
+  background-color: rgba(115, 161, 115, 0.726);
+  text-align: center;
+  padding: 10px;
+}

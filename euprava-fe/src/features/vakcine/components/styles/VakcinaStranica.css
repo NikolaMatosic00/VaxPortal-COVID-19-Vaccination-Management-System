@@ -1,0 +1,53 @@
+.kartica_prikaz_vakcine {
+  border-radius: 4px;
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 100px;
+}
+
+.ime_vakcine {
+  background-color: #e9d58f;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 800;
+  border-radius: 4px;
+}
+
+.podaci_o_vakcini_i_proizvodjacu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.leva_strana,
+.desna_strana {
+  margin: 20px 0px;
+  box-shadow: 3px 2px 4px rgba(196, 196, 196, 0.404);
+  border-radius: 3px;
+}
+
+.leva_strana h4,
+.desna_strana h4 {
+  background-color: #ecd995;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 10px 20px;
+  font-weight: 800;
+  border-radius: 2px;
+}
+
+.leva_strana h5,
+.desna_strana h5 {
+  margin: 0px;
+  padding: 40px;
+  text-align: center;
+  font-size: xx-large;
+  background-color: rgba(226, 246, 255, 0.226);
+}

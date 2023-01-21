@@ -1,0 +1,81 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: #f3efe0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 2px 3px rgba(196, 196, 196, 0.404);
+  min-height: 73px;
+}
+
+.navbar .vesti,
+.navbar .login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar .vesti a,
+.navbar .login a {
+  text-decoration: none;
+}
+.navbar .vesti a:hover,
+.navbar .login a:hover {
+  color: #cba135;
+}
+
+.navbar .vesti ul {
+  margin-left: 45px;
+  list-style: none;
+  display: flex;
+}
+
+.jedan_linkIz_liste {
+  color: #551a8b;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.jedan_linkIz_liste:hover {
+  border: 1px solid rgb(184, 182, 182);
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.mojprofiliodjava {
+  display: flex;
+  align-items: center;
+}
+
+.mojprofil {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.mojprofil:hover {
+  color: #cba135;
+}
+
+.btn_odjava {
+  border: none;
+  padding: 15px;
+  margin-right: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #f3efe0;
+  border: 1px solid white;
+}
+
+.btn_odjava:hover {
+  background-color: rgba(255, 255, 255, 0.55);
+  border: 1px solid transparent;
+}

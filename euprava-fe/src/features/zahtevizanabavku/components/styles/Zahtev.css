@@ -1,0 +1,68 @@
+.zahtev_kartica {
+  border-radius: 2px;
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  padding: 25px;
+  margin: 15px;
+  margin-top: 0px;
+  display: flex;
+  min-width: 1000px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.zahtev_kartica h3 {
+  width: 200px;
+}
+
+.zahtev_kartica_butoni button {
+  padding: 20px;
+}
+.zahtev_kartica_butoni_odobri,
+.zahtev_kartica_butoni_odbij,
+.zahtev_kartica_butoni_vrati,
+.zahtev_kartica_butoni_izmeni {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 3px 2px 41px rgba(196, 196, 196, 0.404);
+  margin-right: 15px;
+}
+.zahtev_kartica_butoni_odobri {
+  background-color: rgba(0, 255, 34, 0.103);
+}
+
+.zahtev_kartica_butoni_odbij {
+  background-color: rgba(255, 17, 0, 0.103);
+}
+
+.zahtev_kartica_butoni_vrati {
+  background-color: rgba(0, 0, 255, 0.075);
+}
+
+.zahtev_kartica_butoni_odobri:hover,
+.zahtev_kartica_butoni_odbij:hover,
+.zahtev_kartica_butoni_vrati:hover {
+  background-color: rgba(100, 148, 237, 0.055);
+}
+
+.zahtev_kartica_butoni_izmeni:hover {
+  background-color: rgba(250, 241, 185, 0.904);
+}
+
+.glavni_div_za_pojedinacan_zahtev {
+  position: relative;
+}
+
+.porukica {
+  font-weight: 600;
+  position: absolute;
+  z-index: 1;
+  margin: auto;
+  right: -200px;
+  padding: 45px 20px;
+  box-shadow: 3px 2px 41px rgba(196, 196, 196, 0.404);
+  border-radius: 4px;
+}

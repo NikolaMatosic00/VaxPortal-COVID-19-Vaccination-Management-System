@@ -1,0 +1,40 @@
+.kriterijumi_pretraga_korisnickih_prijava {
+  box-shadow: 0 3px 5px rgba(174, 156, 238, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 40px;
+  border-radius: 12px;
+  margin: 30px;
+  margin-bottom: 40px;
+}
+
+.kriterijumi_pretraga_korisnickih_prijava input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  transition: 0.4s ease;
+  margin-right: 45px;
+}
+.kriterijumi_pretraga_korisnickih_prijava input:focus {
+  outline: none;
+  border-bottom: 1px solid #cba135;
+  border-left: 1px solid #cba135;
+  border-right: 1px solid #cba135;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.kriterijumi_pretraga_korisnickih_prijava button {
+  border: none;
+  padding: 15px;
+  background-color: #f3efe0;
+  border-radius: 12px;
+  box-shadow: 3px 2px 3px rgba(196, 196, 196, 0.404);
+}
+
+.kriterijumi_pretraga_korisnickih_prijava button:hover {
+  color: white;
+  background-color: #cfac5379;
+  cursor: pointer;
+}

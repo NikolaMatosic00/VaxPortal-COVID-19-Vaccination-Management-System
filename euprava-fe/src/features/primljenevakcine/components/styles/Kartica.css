@@ -1,0 +1,57 @@
+.zajednicka_kartica_za_prijave_i_primljene {
+  border-radius: 2px;
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  padding: 25px;
+  margin: 15px;
+  margin-top: 0px;
+  display: flex;
+  min-width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.zajednicka_kartica_za_prijave_i_primljene h3 {
+  width: 200px;
+}
+
+.zajednicka_kartica_za_prijave_i_primljene button {
+  padding: 20px;
+}
+
+.aktivne_prijave_korisnika {
+  display: flex;
+}
+
+.aktivne_prijave_korisnika button {
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 3px 2px 41px rgba(196, 196, 196, 0.404);
+  margin-right: 15px;
+  background-color: rgba(255, 17, 0, 0.103);
+  transition: 0.3s ease;
+}
+
+.aktivne_prijave_korisnika button:hover {
+  color: white;
+  background-color: rgba(255, 17, 0, 0.5);
+}
+
+.primljene_vakcine_korisnika {
+  display: flex;
+}
+
+.primljene_vakcine_korisnika h2 {
+  background-color: rgba(98, 173, 129, 0.226);
+  border-radius: 11px;
+  margin: 0px;
+  margin-right: 25px;
+}
+
+.primljene_vakcine_korisnika h3 {
+  text-align: center;
+}

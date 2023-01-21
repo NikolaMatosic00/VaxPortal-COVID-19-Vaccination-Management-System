@@ -1,0 +1,72 @@
+.dnevni_izvestaj_kartica {
+  background-color: rgba(255, 242, 127, 0.059);
+  border-radius: 12px;
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  padding: 0px 25px;
+  margin: 100px 200px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.dnevni_izvestaj_kartica_zaglavlje {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 255, 221, 0.062);
+  padding-left: 15px;
+  padding-right: 15px;
+  width: fit-content;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-left: -25px;
+}
+
+.dnevni_izvestaj_kartica_zaglavlje span {
+  color: rgba(73, 117, 155, 0.384);
+  margin-left: 15px;
+}
+
+.dnevni_izvestaj_podaci {
+  padding: 25px 25px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dnevni_izvestaj_podaci h5 {
+  font-weight: 600;
+}
+
+.dnevni_izvestaj_podaci_u_poslednjem_danu {
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  border-radius: 10px;
+}
+
+.dnevni_izvestaj_podaci_u_poslednjem_danu h4 {
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  padding: 15px 40px;
+  margin: 0px;
+}
+
+.dnevni_izvestaj_podaci_u_poslednjem_danu h5 {
+  padding: 5px 40px;
+}
+.dnevni_izvestaj_podaci_ostalo {
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+.dnevni_izvestaj_kartica_btn_dodaj_novu {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(0, 255, 255, 0.103);
+  border-radius: 12px;
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+}
+
+.dnevni_izvestaj_kartica_btn_dodaj_novu:hover {
+  background-color: rgba(0, 255, 255, 0.071);
+}

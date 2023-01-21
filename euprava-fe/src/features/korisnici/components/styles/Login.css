@@ -1,0 +1,67 @@
+.login_counainer {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+}
+
+.login_counainer h2 {
+  text-align: center;
+}
+
+.login_kartica {
+  border-radius: 3px;
+  box-shadow: 3px 2px 10px rgba(196, 196, 196, 0.404);
+  padding: 50px 100px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.login_kartica input {
+  margin-bottom: 21px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  transition: 0.3s ease;
+}
+
+.login_kartica input:focus {
+  outline: none;
+  border-bottom: 1px solid #cba135;
+  border-left: 1px solid #cba135;
+  border-bottom-left-radius: 15px;
+}
+
+.login_kartica button {
+  margin: 21px;
+  width: 80%;
+  border: none;
+  padding: 15px;
+  background-color: #f3efe0;
+  border-radius: 12px;
+  box-shadow: 3px 2px 3px rgba(196, 196, 196, 0.404);
+  transition: 0.2s ease-out;
+}
+
+.login_kartica button:hover {
+  color: white;
+  background-color: #cba135;
+  cursor: pointer;
+}
+
+.btn_registrujse {
+  border: none;
+  padding: 7px 15px;
+  transition: 0.3s linear;
+}
+
+.btn_registrujse:hover {
+  background-color: rgb(206, 205, 205);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 15px;
+}
