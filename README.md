@@ -1,9 +1,31 @@
-# Covid-19 Vaccination website
+# VaxPortal – COVID-19 Vaccination Management System
 
-Spring boot & React project made for course OWP at Faculty of Technical Sciences Novi Sad, 2nd year
+VaxPortal is a web application developed for managing COVID-19 vaccination processes, including appointment scheduling and vaccination records.
 
-## Project structure
+## 🛠️ Technologies Used
 
-Spring boot (JPA, REST)
+- **Backend**: Java, Spring Boot, JPA, MySQL
+- **Frontend**: React, TypeScript, Redux, Redux-Saga
 
-React (Redux-saga, redux-persistance)
+## 🚀 How to Run
+
+1. **Backend**:
+   - Configure `application.properties` with your MySQL credentials.
+   - Run the Spring Boot application.
+
+2. **Frontend**:
+   - Navigate to the frontend directory.
+   - Install dependencies:
+     ```
+     npm install
+     ```
+   - Start the React application:
+     ```
+     npm start
+     ```
+
+Access the application at `http://localhost:3000`.
+
+## 📄 License
+
+This project is intended for educational purposes.
